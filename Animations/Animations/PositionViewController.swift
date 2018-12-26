@@ -23,13 +23,16 @@ class PositionViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         UIView.animate(withDuration: 1, animations: {
             self.blueSquare.center.x = self.view.bounds.width - self.blueSquare.center.x
-            
-            self.redSquare.center.y = self.view.bounds.height - self.redSquare.center.y
-            
-            
-            self.greenSquare.center.x = self.view.bounds.width - self.greenSquare.center.x
-             self.greenSquare.center.y = self.view.bounds.height - self.greenSquare.center.y
         })
+        
+        UIView.animate(withDuration: 1, delay: 0.5, options: [], animations: {
+            self.redSquare.center.y = self.view.bounds.height - self.redSquare.center.y
+        }, completion: nil)
+        
+        UIView.animate(withDuration: 1, delay: 1.0, options: [], animations: {
+            self.greenSquare.center.x = self.view.bounds.width - self.greenSquare.center.x
+            self.greenSquare.center.y = self.view.bounds.height - self.greenSquare.center.y
+        }, completion: nil)
     }
     
 
