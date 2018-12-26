@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F8E71F621D37DEA00799A98 /* OpacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E71F521D37DEA00799A98 /* OpacityViewController.swift */; };
+		3F8E71F821D380B700799A98 /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E71F721D380B700799A98 /* ScaleViewController.swift */; };
 		3FB7494C21D22C3900E3D0D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7494B21D22C3900E3D0D9 /* AppDelegate.swift */; };
 		3FB7494E21D22C3900E3D0D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7494D21D22C3900E3D0D9 /* ViewController.swift */; };
 		3FB7495121D22C3900E3D0D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB7494F21D22C3900E3D0D9 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		3F8E71F521D37DEA00799A98 /* OpacityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityViewController.swift; sourceTree = "<group>"; };
+		3F8E71F721D380B700799A98 /* ScaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
 		3FB7494821D22C3900E3D0D9 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB7494B21D22C3900E3D0D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FB7494D21D22C3900E3D0D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				3FB7495421D22C4800E3D0D9 /* LaunchScreen.storyboard */,
 				3FB7495721D22C4800E3D0D9 /* Info.plist */,
 				3FB7495D21D22FB400E3D0D9 /* PositionViewController.swift */,
+				3F8E71F721D380B700799A98 /* ScaleViewController.swift */,
 				3F8E71F521D37DEA00799A98 /* OpacityViewController.swift */,
 			);
 			path = Animations;
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FB7495E21D22FB400E3D0D9 /* PositionViewController.swift in Sources */,
+				3F8E71F821D380B700799A98 /* ScaleViewController.swift in Sources */,
 				3FB7494E21D22C3900E3D0D9 /* ViewController.swift in Sources */,
 				3F8E71F621D37DEA00799A98 /* OpacityViewController.swift in Sources */,
 				3FB7494C21D22C3900E3D0D9 /* AppDelegate.swift in Sources */,
