@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F4BF5D721D4C2F3002886EF /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4BF5D621D4C2F3002886EF /* ColorViewController.swift */; };
 		3F8E71F621D37DEA00799A98 /* OpacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E71F521D37DEA00799A98 /* OpacityViewController.swift */; };
 		3F8E71F821D380B700799A98 /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E71F721D380B700799A98 /* ScaleViewController.swift */; };
 		3FB7494C21D22C3900E3D0D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7494B21D22C3900E3D0D9 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F4BF5D621D4C2F3002886EF /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 		3F8E71F521D37DEA00799A98 /* OpacityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityViewController.swift; sourceTree = "<group>"; };
 		3F8E71F721D380B700799A98 /* ScaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
 		3FB7494821D22C3900E3D0D9 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +71,7 @@
 				3FB7495D21D22FB400E3D0D9 /* PositionViewController.swift */,
 				3F8E71F721D380B700799A98 /* ScaleViewController.swift */,
 				3F8E71F521D37DEA00799A98 /* OpacityViewController.swift */,
+				3F4BF5D621D4C2F3002886EF /* ColorViewController.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				3F8E71F821D380B700799A98 /* ScaleViewController.swift in Sources */,
 				3FB7494E21D22C3900E3D0D9 /* ViewController.swift in Sources */,
 				3F8E71F621D37DEA00799A98 /* OpacityViewController.swift in Sources */,
+				3F4BF5D721D4C2F3002886EF /* ColorViewController.swift in Sources */,
 				3FB7494C21D22C3900E3D0D9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
